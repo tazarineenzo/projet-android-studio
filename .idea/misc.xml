@@ -3,7 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/file.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/ic_cart.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/ic_delete.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/ic_less.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/ic_more.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/rounded_background.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_basket.xml" value="0.10055724417426545" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_category.xml" value="0.33" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/cell_basket.xml" value="0.25" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/cell_main.xml" value="0.1916376306620209" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/fragment_photo.xml" value="0.10157041540020263" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/menu_basket.xml" value="0.33" />
+        <entry key="..\:/Users/enzo.tazarine/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/menu/menu.xml" value="0.33" />
       </map>
     </option>
   </component>
