@@ -1,13 +1,15 @@
-package fr.isen.tazarine.androiderestaurant
+package fr.isen.tazarine.androiderestaurant.Detail
 
+import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.squareup.picasso.Picasso
+import fr.isen.tazarine.androiderestaurant.R
 import fr.isen.tazarine.androiderestaurant.databinding.FragmentPhotoBinding
-import java.net.URL
 
 
 class PhotoFragment : Fragment() {
@@ -16,7 +18,7 @@ class PhotoFragment : Fragment() {
       companion object{
 
           const val URL = "url"
-          fun newInstance(url: String) : PhotoFragment{
+          fun newInstance(url: String) : PhotoFragment {
 
               return PhotoFragment().apply {
 
@@ -32,6 +34,12 @@ class PhotoFragment : Fragment() {
 
 
       }
+
+
+    override fun onCreate(savedInstanceState: Bundle?){
+        super.onCreate(savedInstanceState)
+    }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

@@ -16,7 +16,7 @@ import java.text.FieldPosition
 import kotlin.coroutines.coroutineContext
 
 class BasketAdapter (private val items: List<BasketItem>,val deleteClicklistener: (BasketItem)->Unit): RecyclerView.Adapter <BasketAdapter.BasketViewHolder>(){
-
+lateinit var context : Context
     class BasketViewHolder(binding: CellBasketBinding) :RecyclerView.ViewHolder(binding.root){
          val dishName: TextView = binding.textView7
          val price : TextView = binding.textView8
@@ -26,6 +26,7 @@ class BasketAdapter (private val items: List<BasketItem>,val deleteClicklistener
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType : Int): BasketViewHolder{
+        context = parent.context
         return BasketViewHolder(CellBasketBinding.inflate(LayoutInflater.from(parent.context),parent,false))
     }
 
